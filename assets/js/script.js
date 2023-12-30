@@ -50,7 +50,7 @@ async function generateImages(input) {
         );
 
         if (!response.ok) {
-            alert("Failed to generate image!");
+            alert("Failed to generate image! Please try again in a few minutes.");
         }
 
         const blob = await response.blob();
