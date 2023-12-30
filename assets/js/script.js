@@ -15,3 +15,7 @@ function enableGenerateButton() {
     document.getElementById("generate-btn").disabled = false;
 }
 
+function clearImageGrid() {
+    const imageGrid = document.getElementById("image-grid");
+    imageGrid.innerHTML = "";
+}
